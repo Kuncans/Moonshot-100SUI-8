@@ -16,6 +16,7 @@
 		956D7C9827DEB59B007DBE4E /* Bundle+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956D7C9727DEB59B007DBE4E /* Bundle+Ext.swift */; };
 		956D7C9A27DEB94D007DBE4E /* missions.json in Resources */ = {isa = PBXBuildFile; fileRef = 956D7C9927DEB94D007DBE4E /* missions.json */; };
 		956D7C9F27DEBB93007DBE4E /* Mission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956D7C9E27DEBB93007DBE4E /* Mission.swift */; };
+		956D7CA127DEC24F007DBE4E /* ShapeStyle+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956D7CA027DEC24F007DBE4E /* ShapeStyle+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		956D7C9727DEB59B007DBE4E /* Bundle+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Ext.swift"; sourceTree = "<group>"; };
 		956D7C9927DEB94D007DBE4E /* missions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = missions.json; sourceTree = "<group>"; };
 		956D7C9E27DEBB93007DBE4E /* Mission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mission.swift; sourceTree = "<group>"; };
+		956D7CA027DEC24F007DBE4E /* ShapeStyle+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ShapeStyle+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				956D7C9527DEB436007DBE4E /* astronauts.json */,
 				956D7C9927DEB94D007DBE4E /* missions.json */,
 				956D7C9727DEB59B007DBE4E /* Bundle+Ext.swift */,
+				956D7CA027DEC24F007DBE4E /* ShapeStyle+Ext.swift */,
 			);
 			path = "Moonshot-100SUI-8";
 			sourceTree = "<group>";
@@ -165,6 +168,7 @@
 				956D7C9F27DEBB93007DBE4E /* Mission.swift in Sources */,
 				956D7C9427DEB3FF007DBE4E /* Astronaut.swift in Sources */,
 				956D7C9827DEB59B007DBE4E /* Bundle+Ext.swift in Sources */,
+				956D7CA127DEC24F007DBE4E /* ShapeStyle+Ext.swift in Sources */,
 				956D7C8827DEB3F1007DBE4E /* ContentView.swift in Sources */,
 				956D7C8627DEB3F1007DBE4E /* Moonshot_100SUI_8App.swift in Sources */,
 			);
