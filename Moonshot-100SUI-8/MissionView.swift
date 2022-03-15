@@ -45,6 +45,11 @@ struct MissionView: View {
                         .padding(.top)
 
                     VStack(alignment: .leading) {
+                        
+                        Text("Launched: " + mission.formattedLaunchDate)
+                            .frame(maxWidth: .infinity)
+                            .padding(.top)
+                        
                         Rectangle()
                             .frame(height: 2)
                             .foregroundColor(.lightBackground)
@@ -72,7 +77,7 @@ struct MissionView: View {
                         HStack {
                             ForEach(crew, id: \.role) { crewMember in
                                 NavigationLink {
-                                    Text("Astronaut Details")
+                                    AstronautView(astronaut: crewMember.astronaut)
                                 } label: {
                                     HStack {
                                         ZStack {
@@ -91,8 +96,6 @@ struct MissionView: View {
                                                 .offset(x: 62, y: 7)
                                                 .opacity(commander(role: crewMember.role) ? 1.0 : 0.0)
                                         }
-                                        
-                                        
                                         VStack(alignment: .leading) {
                                             Text(crewMember.astronaut.name)
                                                 .foregroundColor(.white)

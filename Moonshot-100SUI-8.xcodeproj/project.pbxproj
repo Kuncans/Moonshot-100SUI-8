@@ -18,6 +18,7 @@
 		956D7C9F27DEBB93007DBE4E /* Mission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956D7C9E27DEBB93007DBE4E /* Mission.swift */; };
 		956D7CA127DEC24F007DBE4E /* ShapeStyle+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956D7CA027DEC24F007DBE4E /* ShapeStyle+Ext.swift */; };
 		956D7CA327DEC4A1007DBE4E /* MissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956D7CA227DEC4A1007DBE4E /* MissionView.swift */; };
+		956D7CA527E0E011007DBE4E /* AstronautView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956D7CA427E0E011007DBE4E /* AstronautView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		956D7C9E27DEBB93007DBE4E /* Mission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mission.swift; sourceTree = "<group>"; };
 		956D7CA027DEC24F007DBE4E /* ShapeStyle+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ShapeStyle+Ext.swift"; sourceTree = "<group>"; };
 		956D7CA227DEC4A1007DBE4E /* MissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionView.swift; sourceTree = "<group>"; };
+		956D7CA427E0E011007DBE4E /* AstronautView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				956D7C8527DEB3F1007DBE4E /* Moonshot_100SUI_8App.swift */,
 				956D7C8727DEB3F1007DBE4E /* ContentView.swift */,
 				956D7CA227DEC4A1007DBE4E /* MissionView.swift */,
+				956D7CA427E0E011007DBE4E /* AstronautView.swift */,
 				956D7C8927DEB3F3007DBE4E /* Assets.xcassets */,
 				956D7C8B27DEB3F3007DBE4E /* Preview Content */,
 				956D7C9527DEB436007DBE4E /* astronauts.json */,
@@ -170,6 +173,7 @@
 			files = (
 				956D7CA327DEC4A1007DBE4E /* MissionView.swift in Sources */,
 				956D7C9F27DEBB93007DBE4E /* Mission.swift in Sources */,
+				956D7CA527E0E011007DBE4E /* AstronautView.swift in Sources */,
 				956D7C9427DEB3FF007DBE4E /* Astronaut.swift in Sources */,
 				956D7C9827DEB59B007DBE4E /* Bundle+Ext.swift in Sources */,
 				956D7CA127DEC24F007DBE4E /* ShapeStyle+Ext.swift in Sources */,
